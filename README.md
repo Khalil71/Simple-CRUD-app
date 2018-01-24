@@ -61,9 +61,13 @@ $ npm run test-watch
 ### /posts
 
 GET http://localhost:3000/posts
+
 GET http://localhost:3000/posts/:id
+
 POST http://localhost:3000/posts
+
 PUT http://localhost:3000/posts/:id
+
 DELETE http://localhost:3000/posts/:id
 
 ### /users
@@ -92,4 +96,4 @@ GET http://localhost:3000/collections
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
