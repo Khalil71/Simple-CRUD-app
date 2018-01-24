@@ -2,18 +2,7 @@ var express = require('express');
 var fetch = require('node-fetch');
 var router = express.Router();
 var { token } = require('../headerAuth');
-
-function status(response) {
-  if (response.status >= 200 && response.status < 300) {
-    return Promise.resolve(response);
-  } else {
-    return Promise.reject(new Error(response.statusText));
-  }
-}
-
-function json(response) {
-  return response.json();
-}
+const { status, json } = require('./functions');
 
 router.get('/', (req, res) => {
   const url = `https://jsonplaceholder.typicode.com/users`;

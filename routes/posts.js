@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const router = express.Router();
 const { token } = require('../headerAuth');
-const { status, json } = require('../functions');
+const { status, json } = require('./functions');
 
 router.get('/', (req, res) => {
   const url = `https://jsonplaceholder.typicode.com/posts`;
