@@ -73,17 +73,25 @@ DELETE http://localhost:3000/posts/:id
 ### /users
 
 GET http://localhost:3000/users
+
 GET http://localhost:3000/users/:id
+
 POST http://localhost:3000/users
+
 PUT http://localhost:3000/users/:id
+
 DELETE http://localhost:3000/users/:id
 
 ### /albums
 
 GET http://localhost:3000/albums
+
 GET http://localhost:3000/albums/:id
+
 POST http://localhost:3000/albums
+
 PUT http://localhost:3000/albums/:id
+
 DELETE http://localhost:3000/albums/:id
 
 ### /collections
