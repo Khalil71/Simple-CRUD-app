@@ -1,7 +1,7 @@
-var express = require('express');
-var fetch = require('node-fetch');
-var router = express.Router();
-var { token } = require('../headerAuth');
+const express = require('express');
+const fetch = require('node-fetch');
+const router = express.Router();
+const { token } = require('../headerAuth');
 const { status, json } = require('./functions');
 
 router.get('/', (req, res) => {
